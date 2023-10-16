@@ -14,3 +14,4 @@ Took me about 90 minutes to have blog.cadegray.dev live.
 I love Vercel so far.
 Taking the blog example from nextjs and shaping it to work for me. using this as a project to learn next
 Typescript helps alot with removing unused imports
+testing updating via github mobile
