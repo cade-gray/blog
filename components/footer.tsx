@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
         <div className="flex flex-col items-center">
-          <p>Built using NextJS</p>
+          <p>Built using NextJS, Tailwind, and Markdown. Hosted on Vercel.</p>
         </div>
       </Container>
     </footer>
