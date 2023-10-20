@@ -20,7 +20,7 @@ I wanted the blog posts to be able to be written in Markdown files stored in a f
 ### Using NextJS
 
 NextJS is a framework I have been wanting to pick up for some time now but have not found the need for it yet, but the time has finally come and I think it has been a good experience so far.
-It is used for building full stack applications that are typically server-side rendered (SSR). Essentially, when a page is requested like `https://blog.cadegray.dev/posts/hello-world`, under the hood, a call is being made to an API route `/posts/$slug`, $slug being the requested post, which is returning HTML that has been rendered from markdown. Within a folder, lives a `hello-world.MD` file that represents the blog post data.
+It is used for building full stack applications that are typically server-side rendered (SSR). Essentially, when a page is requested like https://blog.cadegray.dev/posts/hello-world, under the hood, a call is being made to an API route `/posts/$slug`, $slug being the requested post, which is returning HTML that has been rendered from markdown. Within a folder, lives a `hello-world.MD` file that represents the blog post data.
 
 ### TypeScript and Tailwind
 
@@ -36,7 +36,9 @@ By applying these class names, you are able to provide a background, apply paddi
 
 Now for my favorite feature, being able to write my posts in Markdown. This is much easier than having to write the equivalent in HTML. All that needs to be done is adding a new MD file to a directory and you have yourself a new blog post that can be accessed by it’s filename. One example use, that I have actually been using in this post, is being able to write code snippets that renders to `<code>` html elements by wrapping in backticks:
 
-(\`var a = "hello"\` -> `var a = "hello"`).
+\`var a = "hello"\`
+
+`var a = "hello"`
 
 ### Hosting
 
