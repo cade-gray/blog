@@ -7,7 +7,7 @@ author:
   name: Cade Gray
   picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
-  url: "/assets/blog/preview/cover.jpg"
+  url: "/assets/blog/hello-world/TMNTStack.png"
 ---
 
 ### Why this blog?
