@@ -2,10 +2,7 @@
 title: "How I Built and Deployed My Blog Within 90 Minutes Using the TMNT Stack"
 excerpt: "Luckily, NextJS had already built the exact solution I was looking for as an example. Within about 90 minutes, I was able to have this blog customized a bit to my liking and deployed on Vercel. It uses 4 tools that I have a lot of interest in so I am happy to dive into this technology cocktail. With TypeScript, Markdown, NextJS, and Tailwind we have what I like to call the TMNT stack or the ninja turtle stack (I did a quick google search and I think I am the first to coin this term!)."
 coverImage: "/assets/blog/hello-world/TMNTStack.png"
-date: "2023-10-15"
-author:
-  name: Cade Gray
-  picture: "/assets/blog/authors/joe.jpeg"
+date: "2023-10-19"
 ogImage:
   url: "/assets/blog/hello-world/TMNTStack.png"
 ---
