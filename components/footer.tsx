@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
           <p>Built using NextJS, Tailwind, and Markdown. Hosted on Vercel.</p>
         </div>
       </Container>

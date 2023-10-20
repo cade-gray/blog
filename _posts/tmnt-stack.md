@@ -37,6 +37,20 @@ Now for my favorite feature, being able to write my posts in Markdown. This is m
 
 `var a = "hello"`
 
+You can also do headings by using the \# symbol like below:
+
+\#\#\# This is a heading 3 (\<H3\>)
+
+### This is a heading 3 (\<H3\>)
+
+I also love the ability to **bold** things so easily. All you need to do is wrap the desired text in double asterisks (\*) like below:
+
+\*\*This is bold\*\*
+
+**This is bold**
+
+So obviously, this is perfect for quickly throwing together blog posts with lots of control when it comes to formatting my text.
+
 ### Hosting
 
 For hosting, I normally will place my sites and applications on my personal Digital Ocean droplet. However, since I used NextJS, I wanted to get the full Vercel experience (they are the creators of NextJS) so I decided to use their hosting solution. The process of deploying modern web apps to Vercel is hands down one of the best experiences I think you can have with deploying an application. Being able to automatically deploy from your main/master branch on GitHub is such a nice experience since it automates the build and deploys for you. With this blog, I was able to have it built and deployed to Vercel all within 90 minutes, even with some mistakes along the way.
