@@ -2,7 +2,7 @@
 title: "How I Built and Deployed My Blog Within 90 Minutes Using the TMNT Stack"
 excerpt: "Luckily, NextJS had already built the exact solution I was looking for as an example. Within about 90 minutes, I was able to have this blog customized a bit to my liking and deployed on Vercel. It uses 4 tools that I have a lot of interest in so I am happy to dive into this technology cocktail. With TypeScript, Markdown, NextJS, and Tailwind we have what I like to call the TMNT stack or the ninja turtle stack (I did a quick google search and I think I am the first to coin this term!)."
 coverImage: "/assets/blog/hello-world/TMNTStack.png"
-date: "2023-10-19"
+date: "2023-10-21"
 ogImage:
   url: "/assets/blog/hello-world/TMNTStack.png"
 ---
@@ -17,11 +17,13 @@ I wanted the blog posts to be able to be written in Markdown files stored in a f
 ### Using NextJS
 
 NextJS is a framework I have been wanting to pick up for some time now but have not found the need for it yet, but the time has finally come and I think it has been a good experience so far.
-It is used for building full stack applications that are typically server-side rendered (SSR). Essentially, when a page is requested like https://blog.cadegray.dev/posts/hello-world, under the hood, a call is being made to an API route `/posts/$slug`, $slug being the requested post, which is returning HTML that has been rendered from markdown. Within a folder, lives a `hello-world.MD` file that represents the blog post data.
+It takes a good bit of prerequisites before you should dive in, such as: Learning JavaScript, React, and knowledge of APIs and working with server side languages so you can fully grasp what you are doing.
+NextJS is used for building full stack applications that are typically server-side rendered (SSR). Essentially, when a page is requested like https://blog.cadegray.dev/posts/hello-world, under the hood, a call is being made to an API route `/posts/$slug`, $slug being the requested post, which is returning HTML that has been rendered from markdown. Within a folder, lives a `hello-world.MD` file that represents the blog post data. Learning some of the concepts would not have been as easy for me to pick up if I had not had the background of using PHP back in college. However, it still does not seem too hard at all for any new developers to pick up.
 
 ### TypeScript and Tailwind
 
 There are two, what I would consider tools (even though they are more like a language and library), that I think are perfect for improving productivity. The first tool is TypeScript, which gives JavaScript the ability to have types. Coming from learning development with Java, I worked with types, but did not appreciate them completely, especially when moving to JavaScript which is the wild west. Once I started working on my Admin Site and especially this site, it finally clicked with me how it could be useful. The strictness of it keeps my code much cleaner and prevents unused imports from staying in my project.
+The learning curve and verboseness of TypeScript can be a challenge to overcome but I think the benefits outweigh the negatives enough with it. However, I started learning with Java so the verbose aspect is not too painful for me, however, JavaScript has spoiled me.
 The second tool is Tailwind CSS. The more I use it, the more I fall in love with it and never want to go back to raw CSS. I have spent way too much time writing CSS compared to other languages due to wanting things to look just right in my eyes, and it can get very messy, very quick.
 With TailWind, I am able to write my CSS faster than ever since it's done within the HTML elements Class (or Classname if in JSX) using predefined class names. For example, to style this white container that is housing the blog post, classes were applied to the following JSX element as shown:
 
@@ -57,4 +59,4 @@ For hosting, I normally will place my sites and applications on my personal Digi
 
 ### Takeaways
 
-I am very happy with how building this blog has been going. The developer experience you get from Typescript and Tailwind is something I have never appreciated until now. With NextJS, I am enjoying my experience with it so far and I hope to continue to expand upon it so I can learn more about SSR and other concepts such as Hydration. This will be the first of many blog posts I will write to journal my journey in learning for myself and for others to read if they want.
+I am very happy with how building this blog has been going. The developer experience you get from Typescript and Tailwind is something I have never appreciated until now. With NextJS, I have no major complaints so far (minus the hundreds of configs and bloat) and I hope to continue to expand upon it so I can learn more about SSR and other concepts such as Hydration. This will be the first of many blog posts I will write to journal my journey in learning for myself and for others to read if they want. If you would like to view the code for this blog, it can be found [here](https://github.com/cade-gray/blog).
