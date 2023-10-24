@@ -17,7 +17,7 @@ const BlogPosts = ({ posts }: Props) => {
             key={post.slug}
             title={post.title}
             coverImage={post.coverImage}
-            date={post.date}
+            postDate={post.postDate}
             slug={post.slug}
             excerpt={post.excerpt}
           />

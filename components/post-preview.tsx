@@ -5,12 +5,12 @@ import Link from "next/link";
 type Props = {
   title: string;
   coverImage: string;
-  date: string;
+  postDate: string;
   excerpt: string;
   slug: string;
 };
 
-const PostPreview = ({ title, coverImage, date, excerpt, slug }: Props) => {
+const PostPreview = ({ title, coverImage, postDate, excerpt, slug }: Props) => {
   return (
     <div className="bg-slate-50 p-3 rounded-xl shadow-2xl">
       <div className="mb-5">
@@ -26,7 +26,7 @@ const PostPreview = ({ title, coverImage, date, excerpt, slug }: Props) => {
         </Link>
       </h3>
       <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
+        <DateFormatter dateString={postDate} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
     </div>

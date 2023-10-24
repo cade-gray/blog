@@ -5,10 +5,10 @@ import PostTitle from "./post-title";
 type Props = {
   title: string;
   coverImage: string;
-  date: string;
+  postDate: string;
 };
 
-const PostHeader = ({ title, coverImage, date }: Props) => {
+const PostHeader = ({ title, coverImage, postDate }: Props) => {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -18,7 +18,7 @@ const PostHeader = ({ title, coverImage, date }: Props) => {
       <div className="max-w-2xl mx-auto">
         <div className="mb-6 text-lg">
           <b>Posted: </b>
-          <DateFormatter dateString={date} />
+          <DateFormatter dateString={postDate} />
         </div>
       </div>
     </>
