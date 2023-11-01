@@ -6,9 +6,10 @@ type Props = {
   title: string;
   coverImage: string;
   postDate: string;
+  lastUpdated: string;
 };
 
-const PostHeader = ({ title, coverImage, postDate }: Props) => {
+const PostHeader = ({ title, coverImage, postDate, lastUpdated }: Props) => {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -19,6 +20,10 @@ const PostHeader = ({ title, coverImage, postDate }: Props) => {
         <div className="mb-6 text-lg">
           <b>Posted: </b>
           <DateFormatter dateString={postDate} />
+        </div>
+        <div className="mb-6 text-lg">
+          <b>Last Updated: </b>
+          <DateFormatter dateString={lastUpdated} />
         </div>
       </div>
     </>

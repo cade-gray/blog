@@ -41,6 +41,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 title={post.title}
                 coverImage={post.coverImage}
                 postDate={post.postDate}
+                lastUpdated={post.lastUpdated}
               />
               <PostBody content={post.content} />
             </article>
@@ -61,6 +62,7 @@ export async function getStaticProps({ params }: Params) {
   const post = getPostBySlug(params.slug, [
     "title",
     "postDate",
+    "lastUpdated",
     "slug",
     "author",
     "content",
