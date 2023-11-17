@@ -2,11 +2,14 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 pt-1">
-      <Link href="/" className="hover:underline">
-        Cade Gray Dev Blog
-      </Link>
-    </h2>
+    <Link href="/" className="hover:underline">
+      <img
+        src="/assets/header/CG.svg"
+        alt="Cade Gray Dev Blog"
+        width="100px"
+        height="100px"
+      />
+    </Link>
   );
 };
 
