@@ -19,3 +19,7 @@
 .markdown a {
   @apply text-emerald-700;
 }
+/* Added in order to have bullet points with ULs */
+.markdown ul {
+  @apply list-disc pl-8;
+}
