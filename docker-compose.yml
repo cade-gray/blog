@@ -1,0 +1,6 @@
+services:
+  blog:
+    image: ghcr.io/cade-gray/blog:latest
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
